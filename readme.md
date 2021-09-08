@@ -8,12 +8,9 @@ Crash Plan:
 * [ ] Convert app to Web in VS Code
 * [ ] Containerize app
 * [ ] Deploy container to droplet
-* [ ] Modify code in feature branch
+* [ ] Convert to MaterialUI https://blog.codemagic.io/how-to-build-react-native-ui-app-with-material-ui/
 * [ ] Merge branch to master
 * [ ] Update production container
-
-
-Is there a material UI library for React Native?
 
 # React Tutorial Notes
 To do this, I had to install NodeJS. I used `sudo apt install nodejs`. This installed a version 4 versions behind the current. To update, I followed these instructions:
