@@ -46,3 +46,6 @@ I followed [this tutorial](https://code.visualstudio.com/docs/nodejs/reactjs-tut
 After doing this, ESLint prevented the tutorial from functioning and I had to undo basically all of the linting stuff :(
 
 Completed the tutorial!
+
+# Setting up React Native for Android/Web
+Here's the official tutorial: https://reactnative.dev/docs/environment-setup
