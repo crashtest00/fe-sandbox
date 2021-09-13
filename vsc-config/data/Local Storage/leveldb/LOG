@@ -1,3 +1,3 @@
-2021/09/12-22:55:10.978 23a0d Reusing MANIFEST /home/littlebrain/fe-sandbox/vsc-config/data/Local Storage/leveldb/MANIFEST-000001
-2021/09/12-22:55:10.978 23a0d Recovering log #3
-2021/09/12-22:55:10.978 23a0d Reusing old log /home/littlebrain/fe-sandbox/vsc-config/data/Local Storage/leveldb/000003.log 
+2021/09/13-00:00:02.074 2476a Reusing MANIFEST /home/littlebrain/fe-sandbox/vsc-config/data/Local Storage/leveldb/MANIFEST-000001
+2021/09/13-00:00:02.074 2476a Recovering log #3
+2021/09/13-00:00:02.074 2476a Reusing old log /home/littlebrain/fe-sandbox/vsc-config/data/Local Storage/leveldb/000003.log 

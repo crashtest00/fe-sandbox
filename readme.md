@@ -2,7 +2,8 @@ Crash Plan:
 
 
 * [X] Complete React tutorial	 https://reactjs.org/tutorial/tutorial.html
-* [ ] Add VS Code Settings sync and move development to docker container
+* [X] Add VS Code Settings sync
+* [ ] Move development to docker container
 * [ ] Get Android stuff working
 * [ ] Build "Hello World" React Native app in Android Studio
 * [ ] Modify ^^ in VS Code (All further dev happens in VS C)

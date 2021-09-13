@@ -1,0 +1,21 @@
+#!/bin/bash
+
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+echo "Push config changes to ${BRANCH}? y/n"
+read n
+if [ "$n" == "y" ]; then
+   printf "Proceeding to push config changes to ${BRANCH}"
+   push_changes
+elif  [ "$n" == "n" ]; then
+   printf "Operation cancelled"
+
+else
+   printf "Invalid response. Operation cancelled."
+fi
+
+push_changes () {
+    git add /vsc-config
+    git commit /vsc-config -m "Update VS Code config files"
+    git pull origin ${BRANCH} --dry-run
+    git push origin ${BRANCH} --dry-run
+}
