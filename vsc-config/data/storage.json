@@ -1466,18 +1466,19 @@
             }
         }
     },
-    "theme": "hc-black",
-    "themeBackground": "#000000",
+    "theme": "vs-dark",
+    "themeBackground": "#390000",
     "windowSplash": {
-        "baseTheme": "hc-black",
+        "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#ffffff",
-            "background": "#000000",
-            "editorBackground": "#000000",
-            "titleBarBackground": "#000000",
-            "activityBarBackground": "#000000",
-            "sideBarBackground": "#000000",
-            "windowBorder": "#6fc3df"
+            "foreground": "#cccccc",
+            "background": "#390000",
+            "editorBackground": "#390000",
+            "titleBarBackground": "#770000",
+            "activityBarBackground": "#580000",
+            "sideBarBackground": "#330000",
+            "statusBarBackground": "#700000",
+            "statusBarNoFolderBackground": "#700000"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1492,7 +1493,7 @@
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///home/littlebrain/fe-sandbox",
-            "backupPath": "/home/littlebrain/fe-sandbox/fe/data/Backups/21f5765f5f60e81f795c646383096e4f",
+            "backupPath": "/home/littlebrain/fe-sandbox/vsc-config/data/Backups/21f5765f5f60e81f795c646383096e4f",
             "uiState": {
                 "mode": 1,
                 "x": 288,
