@@ -1,6 +1,6 @@
-Crash Plan:
+### Note: VS Code should be launched by running `./code-fe`. This will load the VS Code with the appropriate configuration.
 
-
+# Crash Course Plan:
 * [X] Complete React tutorial	 https://reactjs.org/tutorial/tutorial.html
 * [ ] Add VS Code Settings sync and move development to docker container
 * [ ] Get Android stuff working
