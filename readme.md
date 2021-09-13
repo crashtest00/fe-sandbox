@@ -1,4 +1,5 @@
-### Note: VS Code should be launched by running `./code-fe`. This will load the VS Code with the appropriate configuration.
+### Note: VS Code should be launched by running `./code-fe`. 
+This will load the VS Code with the appropriate configuration. This also enables configuration syncing between machines/engineers, provided the config files are kept up to date and merged to master periodically.
 
 # Crash Course Plan:
 * [X] Complete React tutorial	 https://reactjs.org/tutorial/tutorial.html
