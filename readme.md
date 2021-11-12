@@ -1,17 +1,17 @@
 ### Note: VS Code should be launched by running `./code-fe`. 
-This will load the VS Code with the appropriate configuration. This also enables configuration syncing between machines/engineers, provided the config files are kept up to date and merged to master periodically.
+This will load the VS Code with the appropriate configuration. This also enables configuration syncing between machines/engineers, provided the config files are kept up to date and merged periodically.
 
 # Crash Course Plan:
 * [X] Complete React tutorial	 https://reactjs.org/tutorial/tutorial.html
 * [X] Add VS Code Settings sync
-* [ ] Move development to docker container
 * [ ] Get Android stuff working
 * [ ] Build "Hello World" React Native app in Android Studio
+* [ ] [Move development to docker container](https://docs.docker.com/language/nodejs/develop/)
 * [ ] Modify ^^ in VS Code (All further dev happens in VS C)
 * [ ] Convert app to Web in VS Code
 * [ ] Containerize app
 * [ ] Deploy container to droplet
-* [ ] Convert to MaterialUI https://blog.codemagic.io/how-to-build-react-native-ui-app-with-material-ui/
+* [ ] [Convert to MaterialUI](https://blog.codemagic.io/how-to-build-react-native-ui-app-with-material-ui/)
 * [ ] Merge branch to master
 * [ ] Update production container
 
