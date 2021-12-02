@@ -2,21 +2,20 @@
 This will load the VS Code with the appropriate configuration. This also enables configuration syncing between machines/engineers, provided the config files are kept up to date and merged periodically.
 
 # Crash Course Plan:
-* [X] Complete React tutorial	 https://reactjs.org/tutorial/tutorial.html
+* [X] Complete React tutorial	 https://reactjs.o rg/tutorial/tutorial.html
 * [X] Add VS Code Settings sync
-* [ ] Get Android stuff working
-* [ ] Build "Hello World" React Native app in Android Studio
-* [ ] [Move development to docker container](https://docs.docker.com/language/nodejs/develop/)
-* [ ] Modify ^^ in VS Code (All further dev happens in VS C)
-* [ ] Convert app to Web in VS Code
+* [ ] [Start development to docker container](https://docs.docker.com/language/nodejs/develop/) [Helpful youtube tutorial](https://www.youtube.com/watch?v=_CBYbEGvxYY)
+* [ ] Complete [youtube tutorial](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [ ] Containerize app
 * [ ] Deploy container to droplet
-* [ ] [Convert to MaterialUI](https://blog.codemagic.io/how-to-build-react-native-ui-app-with-material-ui/)
 * [ ] Merge branch to master
 * [ ] Update production container
 
+# 12/1/21 Notes
+* Added the React Native web app youtube tutorial.
+
 # React Tutorial Notes
-To do this, I had to install NodeJS. I used `sudo apt install nodejs`. This installed a version 4 versions behind the current. To update, I followed these instructions:
+To do this, I had to install NodeJS. I used sudo apt install nodejs`. This installed a version 4 versions behind the current. To update, I followed these instructions:
 https://phoenixnap.com/kb/update-node-js-version
 
 When completing the "Create React App" exercise, I was prompted to update npm. Here's the link to the exercise:
