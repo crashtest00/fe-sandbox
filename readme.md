@@ -4,7 +4,8 @@ This will load the VS Code with the appropriate configuration. This also enables
 # Crash Course Plan:
 * [X] Complete React tutorial	 https://reactjs.o rg/tutorial/tutorial.html
 * [X] Add VS Code Settings sync
-* [ ] [Start development to docker container](https://docs.docker.com/language/nodejs/develop/) [Helpful youtube tutorial](https://www.youtube.com/watch?v=_CBYbEGvxYY)
+* [ ] [Start development to docker container](https://docs.docker.com/language/nodejs/develop/) 
+[Helpful youtube tutorial](https://www.youtube.com/watch?v=fPtGgOJykTM)
 * [ ] Complete [youtube tutorial](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [ ] Containerize app
 * [ ] Deploy container to droplet
