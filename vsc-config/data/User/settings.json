@@ -1,3 +1,13 @@
 {
-    "workbench.colorTheme": "Red"
+    "workbench.colorTheme": "Red",
+    "json.schemas": [
+        {
+            "name": "vscode-expo-manifest",
+            "url": "file:///home/node/.vscode-server/data/User/globalStorage/bycedric.vscode-expo/manifest-43.0.0.json",
+            "fileMatch": [
+                "app.json",
+                "app.config.json"
+            ]
+        }
+    ]
 }

@@ -3,6 +3,14 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "vscode-remote://dev-container%2B2f686f6d652f626967627261696e2f66652d73616e64626f78/workspaces/fe-sandbox",
+                "label": "~/fe-sandbox [Dev Container]",
+                "remoteAuthority": "dev-container+2f686f6d652f626967627261696e2f66652d73616e64626f78"
+            },
+            {
+                "folderUri": "file:///home/bigbrain/fe-sandbox"
+            },
+            {
                 "folderUri": "file:///home/littlebrain/fe-sandbox"
             }
         ]
@@ -32,7 +40,7 @@
                     },
                     {
                         "id": "workbench.action.openWorkspace",
-                        "label": "Open Wor&&kspace..."
+                        "label": "Open Wor&&kspace from File..."
                     },
                     {
                         "id": "submenuitem.30",
@@ -51,13 +59,35 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/littlebrain/fe-sandbox",
+                                        "external": "vscode-remote://dev-container%2B2f686f6d652f626967627261696e2f66652d73616e64626f78/workspaces/fe-sandbox",
+                                        "path": "/workspaces/fe-sandbox",
+                                        "scheme": "vscode-remote",
+                                        "authority": "dev-container+2f686f6d652f626967627261696e2f66652d73616e64626f78"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/fe-sandbox [Dev Container]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/bigbrain/fe-sandbox",
+                                        "path": "/home/bigbrain/fe-sandbox",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/bigbrain/fe-sandbox"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/littlebrain/fe-sandbox",
                                         "path": "/home/littlebrain/fe-sandbox",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/fe-sandbox"
+                                    "label": "/home/littlebrain/fe-sandbox"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -144,7 +174,7 @@
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
-                                    "label": "&&Keymaps"
+                                    "label": "&&Migrate Keyboard Shortcuts from..."
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -192,6 +222,10 @@
                     {
                         "id": "workbench.action.closeFolder",
                         "label": "Close &&Folder"
+                    },
+                    {
+                        "id": "workbench.action.remote.close",
+                        "label": "Close Re&&mote Connection"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -402,7 +436,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -462,6 +497,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -555,8 +597,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -575,7 +616,8 @@
                     },
                     {
                         "id": "editor.action.toggleRenderControlCharacter",
-                        "label": "Render &&Control Characters"
+                        "label": "Render &&Control Characters",
+                        "checked": true
                     }
                 ]
             },
@@ -583,8 +625,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -593,8 +634,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -906,8 +946,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -963,15 +1002,19 @@
                 "items": [
                     {
                         "id": "workbench.action.openWalkthrough",
-                        "label": "Welcome"
+                        "label": "Get Started"
                     },
                     {
-                        "id": "workbench.action.showInteractivePlayground",
-                        "label": "I&&nteractive Playground"
+                        "id": "workbench.action.showCommands",
+                        "label": "Show All Commands"
                     },
                     {
                         "id": "workbench.action.openDocumentationUrl",
                         "label": "&&Documentation"
+                    },
+                    {
+                        "id": "workbench.action.showInteractivePlayground",
+                        "label": "Editor Playgrou&&nd"
                     },
                     {
                         "id": "update.showCurrentReleaseNotes",
@@ -985,8 +1028,8 @@
                         "label": "&&Keyboard Shortcuts Reference"
                     },
                     {
-                        "id": "workbench.action.openIntroductoryVideosUrl",
-                        "label": "Introductory &&Videos"
+                        "id": "workbench.action.openVideoTutorialsUrl",
+                        "label": "&&Video Tutorials"
                     },
                     {
                         "id": "workbench.action.openTipsAndTricksUrl",
@@ -1085,11 +1128,6 @@
                 "label": "Ctrl+K Ctrl+S",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+s"
-            },
-            "workbench.extensions.action.showRecommendedKeymapExtensions": {
-                "label": "Ctrl+K Ctrl+M",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+m"
             },
             "workbench.action.selectTheme": {
                 "label": "Ctrl+K Ctrl+T",
@@ -1242,6 +1280,11 @@
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1492,16 +1535,18 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/littlebrain/fe-sandbox",
-            "backupPath": "/home/littlebrain/fe-sandbox/vsc-config/data/Backups/21f5765f5f60e81f795c646383096e4f",
+            "folder": "vscode-remote://dev-container%2B2f686f6d652f626967627261696e2f66652d73616e64626f78/workspaces/fe-sandbox",
+            "backupPath": "/home/bigbrain/fe-sandbox/vsc-config/data/Backups/e54b6f58a1e4c9baae8569867d9442c8",
+            "remoteAuthority": "dev-container+2f686f6d652f626967627261696e2f66652d73616e64626f78",
             "uiState": {
-                "mode": 1,
-                "x": 288,
-                "y": 132,
+                "mode": 0,
+                "x": 1732,
+                "y": 106,
                 "width": 1024,
                 "height": 768
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/bigbrain"
 }
